@@ -1,7 +1,7 @@
 #!/bin/sh
 
 dir=/tmp/ppss
-usr='$USERNAME'
+usr=$USERNAME
 
 # begin final exam
 rm -rf $dir && mkdir -p $dir
