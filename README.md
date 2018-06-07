@@ -4,7 +4,7 @@ dir=/tmp/ppss
 usr='$USERNAME'
 
 # begin final exam
-rm -r $dir && mkdir -p $dir
+rm -rf $dir && mkdir -p $dir
 while true; do import -window root $dir/$usr\_`date +%Y%m%d%H%M%S`.png; sleep 10; done &
 
 # end final exam
